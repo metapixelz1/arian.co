@@ -27,6 +27,9 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: "./index.html",
+                instructions: "./scavenger/instructions.html",
+                progress: "./scavenger/progress.html",
+                congratulations: "./scavenger/congratulations.html",
                 ...getMapsScripts(maps),
             },
         },
