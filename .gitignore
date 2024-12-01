@@ -22,4 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-sources/Lights.psd
+.env.secret
+dist.zip
